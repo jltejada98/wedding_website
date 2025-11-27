@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cream text-charcoal antialiased;
+  }
+
+  /* Custom selection color */
+  ::selection {
+    @apply bg-sage-200 text-charcoal;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply font-baskerville italic text-3xl md:text-4xl text-charcoal mb-8 text-center;
+  }
+  
+  .section-subheading {
+    @apply font-garamond text-xl text-charcoal-light mb-4;
+  }
+  
+  .body-text {
+    @apply font-garamond text-lg leading-relaxed text-charcoal;
+  }
+  
+  .label-text {
+    @apply font-sans text-sm uppercase tracking-extra-wide text-sage-600;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
