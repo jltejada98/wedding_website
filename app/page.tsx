@@ -6,10 +6,11 @@ import { Accommodations } from '@/components/Accommodations'
 import { GuestList } from '@/components/GuestList'
 import { SpotifyEmbed } from '@/components/SpotifyEmbed'
 import { Footer } from '@/components/Footer'
+import { PasswordGate } from '@/components/PasswordGate'
 
 export default function Home() {
   return (
-    <>
+    <PasswordGate>
       <Navigation />
       
       <main id="top">
@@ -35,7 +36,7 @@ export default function Home() {
         
         <Footer />
       </main>
-    </>
+    </PasswordGate>
   )
 }
 
