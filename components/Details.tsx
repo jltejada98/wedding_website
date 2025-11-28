@@ -105,11 +105,11 @@ export function Details() {
                   <p className="text-sm text-charcoal-light font-sans">
                     {/* TODO: Add Venmo/Zelle details */}
                     <span className="block font-medium text-charcoal">Venmo:</span>
-                    <span className="text-sage-600">@your-venmo-handle</span>
+                    <span className="text-sage-600">@Isabelle-Sapountzis</span>
                   </p>
                   <p className="text-sm text-charcoal-light font-sans mt-2">
                     <span className="block font-medium text-charcoal">Zelle:</span>
-                    <span className="text-sage-600">your-email@example.com</span>
+                    <span className="text-sage-600">isabellesapountzis@gmail.com</span>
                   </p>
                 </div>
               </div>
