@@ -25,18 +25,18 @@ export function GuestList() {
     'Ursula Cavero & Jose Luis Tejada',
     'Andrea Tejada & Stefano',
     'Diego Tejada',
-    'Rosita & Richard',
+    'Rosita Cavero & Richard',
   ]
   
   const groomFriends = [
     'Natalie Marinack & Eashan Thakuria',
     'Mayuri & Prithwi Thakuria',
-    'Katelin & Victor',
+    'Katelin Bauer & Victor Wallemacq',
     'Karan Gidwani',
-    'Paige & Cole Bressman',
-    'Aldonza & Lorenzo',
-    'Rafa & Gianluca',
-    'Sandra & Stefano',
+    'Paige Candelaria & Cole Bressman',
+    'Aldonza & Lorenzo de la Puente',
+    'Rafa & Gianluca Ferrari',
+    'Sandra & Stefano ',
     'Juan Diego Herrera',
   ]
 

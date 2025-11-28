@@ -24,6 +24,10 @@ export const metadata: Metadata = {
     description: 'Join us to celebrate our wedding on Saturday, July 11, 2026 in Menlo Park, California.',
     type: 'website',
   },
+    icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  }
 }
 
 export default function RootLayout({

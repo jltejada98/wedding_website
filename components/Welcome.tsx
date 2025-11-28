@@ -16,7 +16,7 @@ export function Welcome() {
             <div className="body-text space-y-4">
               <p>
                 We&apos;re getting married on <strong className="text-sage-700">Saturday, July 11, 2026</strong> in 
-                Isabelle&apos;s parent&apos;s backyard in Menlo Park, California.
+                Isabelle&apos;s parents&apos; backyard in Menlo Park, California.
               </p>
               <p className="text-charcoal-light">
                 1099 Coleman Avenue, Menlo Park, California, 94025
