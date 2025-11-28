@@ -1,7 +1,7 @@
 export function GuestList() {
   const brideFamily = [
     'Mary & Ted Sapountzis',
-    'Peter Sapountzis',
+    'Peter Sapountzis & Emma Menziuso',
     'Eugenia Sapountzi',
     'Greg Pazour & Jeffrey Anuszczyk',
     'Diane Olson',
@@ -32,12 +32,12 @@ export function GuestList() {
     'Natalie Marinack & Eashan Thakuria',
     'Mayuri & Prithwi Thakuria',
     'Katelin & Victor',
-    'KG',
+    'Karan Gidwani',
     'Paige & Cole Bressman',
     'Aldonza & Lorenzo',
     'Rafa & Gianluca',
     'Sandra & Stefano',
-    'Juan Diego',
+    'Juan Diego Herrera',
   ]
 
   return (
