@@ -31,16 +31,31 @@ export function GuestList() {
   ]
   
   const groomFriends = [
-    'Natalie Marinack & Eashan Thakuria',
+    'Eashan Thakuria & Natalie Marinack',
     'Mayuri & Prithwi Thakuria',
-    'Katelin Bauer & Victor Wallemacq',
+    'Victor Wallemacq & Katelin Bauer',
     'Karan Gidwani',
-    'Paige Candelaria & Cole Bressman',
-    'Aldonza & Lorenzo de la Puente',
-    'Rafaela Camare & Gianluca Ferrari',
-    'Sandra Wong & Stefano Lozano',
+    'Cole Bressman & Paige Candelaria',
+    'Lorenzo de la Puente & Aldonza Buerba ',
+    'Gianluca Ferrari & Rafaela Camare',
+    'Stefano Lozano & Sandra Wong',
     'Juan Diego Herrera',
   ]
+
+  const allFamily = [
+    'Mary & Ted Sapountzis',
+    'Ursula & Jose Luis Tejada',
+    'Peter Sapountzis & Emma Menziuso',
+    'Andrea Tejada & Stefano Monteverde',
+    'Diego Tejada',
+    'Eugenia Sapountzi',
+    'Rosita Cavero & Richard Cacchione',
+    'Greg Pazour & Jeffrey Anuszczyk',
+    'Claudia Cavero & Cesar Rubina', 
+    'Diane Olson',
+    'Felipe Tejada'
+  ]
+  const allFriends = [...brideFriends, ...groomFriends].sort()
 
   return (
     <section className="py-20 px-6 relative">
@@ -56,74 +71,34 @@ export function GuestList() {
         {/* Decorative line under heading */}
         <div className="w-16 h-px bg-sage-400 mx-auto mb-12" />
         
-        <div className="grid md:grid-cols-2 gap-12 md:gap-16 relative">
-          {/* Vertical divider line on desktop */}
-          <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-sage-300 to-transparent" />
-          
-          {/* Bride's Side */}
-          <div className="md:pr-8">
+        <div className="space-y-16">
+          {/* Family Section */}
+          <div>
             <h3 className="font-sans text-xl font-medium text-center mb-8 flex items-center justify-center gap-2">
-              <span>Bride</span>
-              <span>👰</span>
+              <span>Family</span>
             </h3>
             
-            <div className="mb-8">
-              <h4 className="font-baskerville italic text-lg text-sage-600 mb-4 text-center">
-                Family
-              </h4>
-              <ul className="space-y-2 text-center">
-                {brideFamily.map((guest) => (
-                  <li key={guest} className="font-garamond text-lg hover:text-sage-700 transition-colors">{guest}</li>
-                ))}
-              </ul>
-            </div>
-            
-            {/* Small decorative divider */}
-            <div className="w-8 h-px bg-sage-300 mx-auto my-6" />
-            
-            <div>
-              <h4 className="font-baskerville italic text-lg text-sage-600 mb-4 text-center">
-                Friends
-              </h4>
-              <ul className="space-y-2 text-center">
-                {brideFriends.map((guest) => (
-                  <li key={guest} className="font-garamond text-lg hover:text-sage-700 transition-colors">{guest}</li>
-                ))}
-              </ul>
-            </div>
+            <ul className="space-y-2 text-center max-w-2xl mx-auto">
+              {allFamily.map((guest) => (
+                <li key={guest} className="font-garamond text-lg hover:text-sage-700 transition-colors">{guest}</li>
+              ))}
+            </ul>
           </div>
           
-          {/* Groom's Side */}
-          <div className="md:pl-8">
+          {/* Decorative divider */}
+          <div className="w-16 h-px bg-sage-300 mx-auto" />
+          
+          {/* Friends Section */}
+          <div>
             <h3 className="font-sans text-xl font-medium text-center mb-8 flex items-center justify-center gap-2">
-              <span>Groom</span>
-              <span>🤵</span>
+              <span>Friends</span>
             </h3>
             
-            <div className="mb-8">
-              <h4 className="font-baskerville italic text-lg text-sage-600 mb-4 text-center">
-                Family
-              </h4>
-              <ul className="space-y-2 text-center">
-                {groomFamily.map((guest) => (
-                  <li key={guest} className="font-garamond text-lg hover:text-sage-700 transition-colors">{guest}</li>
-                ))}
-              </ul>
-            </div>
-            
-            {/* Small decorative divider */}
-            <div className="w-8 h-px bg-sage-300 mx-auto my-6" />
-            
-            <div>
-              <h4 className="font-baskerville italic text-lg text-sage-600 mb-4 text-center">
-                Friends
-              </h4>
-              <ul className="space-y-2 text-center">
-                {groomFriends.map((guest) => (
-                  <li key={guest} className="font-garamond text-lg hover:text-sage-700 transition-colors">{guest}</li>
-                ))}
-              </ul>
-            </div>
+            <ul className="space-y-2 text-center max-w-2xl mx-auto">
+              {allFriends.map((guest) => (
+                <li key={guest} className="font-garamond text-lg hover:text-sage-700 transition-colors">{guest}</li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
