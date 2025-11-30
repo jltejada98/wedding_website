@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { SHOW_GUEST_LIST } from './GuestList'
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -18,7 +19,7 @@ export function Navigation() {
     { label: 'Home', href: '#top' },
     { label: 'Details', href: '#details' },
     { label: 'Stay', href: '#accommodations' },
-    { label: 'Guests', href: '#guests' },
+    ...(SHOW_GUEST_LIST ? [{ label: 'Guests', href: '#guests' }] : []),
     { label: 'Playlist', href: '#playlist' },
   ]
 

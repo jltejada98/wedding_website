@@ -1,4 +1,7 @@
+export const SHOW_GUEST_LIST = false
+
 export function GuestList() {
+
   const brideFamily = [
     'Mary & Ted Sapountzis',
     'Peter Sapountzis & Emma Menziuso',
@@ -56,6 +59,10 @@ export function GuestList() {
     'Felipe Tejada'
   ]
   const allFriends = [...brideFriends, ...groomFriends].sort()
+
+  if (!SHOW_GUEST_LIST) {
+    return null
+  }
 
   return (
     <section className="py-20 px-6 relative">
