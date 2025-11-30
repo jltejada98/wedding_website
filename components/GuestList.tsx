@@ -11,10 +11,10 @@ export function GuestList() {
     'Bonnie Chin & Jacob Mensah',
     'Raluca Ghilea',
     'Sofia Kritikopoulos',
-    'Chloe Ellison',
-    'Sydney Durden & Ethan',
+    'Chloe & Alex Ellison',
+    'Sydney Durden & Ethan Marsh',
     'Anna Cookson & Gard Berg Jensen',
-    'Emma Cookson & Hugh',
+    'Emma Cookson & Hugh Jones',
     'William Cookson',
     'Johanna & Rob Cookson',
     'Juliana Parie & Mike D\'Agostino',
@@ -23,9 +23,11 @@ export function GuestList() {
   
   const groomFamily = [
     'Ursula Cavero & Jose Luis Tejada',
-    'Andrea Tejada & Stefano',
+    'Andrea Tejada & Stefano Monteverde',
     'Diego Tejada',
-    'Rosita Cavero & Richard',
+    'Rosita Cavero & Richard Cacchione',
+    'Claudia Cavero & Cesar Rubina', 
+    'Felipe Tejada',
   ]
   
   const groomFriends = [
@@ -35,8 +37,8 @@ export function GuestList() {
     'Karan Gidwani',
     'Paige Candelaria & Cole Bressman',
     'Aldonza & Lorenzo de la Puente',
-    'Rafa & Gianluca Ferrari',
-    'Sandra & Stefano ',
+    'Rafaela Camare & Gianluca Ferrari',
+    'Sandra Wong & Stefano Lozano',
     'Juan Diego Herrera',
   ]
 

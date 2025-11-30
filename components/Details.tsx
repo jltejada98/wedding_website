@@ -20,7 +20,7 @@ export function Details() {
                   which are a ~30 min drive to the Menlo Park/Palo Alto area, where we 
                   have set up hotel blocks.
                 </p>
-                <p className="body-text mt-3 text-charcoal-light">
+                <p className="body-text mt-3">
                   If you wanted to stay in San Francisco, we have not set up any hotel 
                   blocks there but you could take public transit or drive/Uber down to 
                   MP/PA in c. an hour.
@@ -101,9 +101,9 @@ export function Details() {
                   Your presence is the only gift we need 🥰 But should you like to give 
                   something, a small contribution to our future would be very much appreciated.
                 </p>
+              {/*
                 <div className="mt-4 p-4 bg-sage-50 rounded-sm border border-sage-200">
                   <p className="text-sm text-charcoal-light font-sans">
-                    {/* TODO: Add Venmo/Zelle details */}
                     <span className="block font-medium text-charcoal">Venmo:</span>
                     <span className="text-sage-600">@Isabelle-Sapountzis</span>
                   </p>
@@ -111,7 +111,7 @@ export function Details() {
                     <span className="block font-medium text-charcoal">Zelle:</span>
                     <span className="text-sage-600">isabellesapountzis@gmail.com</span>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

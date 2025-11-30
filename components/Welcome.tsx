@@ -18,27 +18,27 @@ export function Welcome() {
                 We&apos;re getting married on <strong className="text-sage-700">Saturday, July 11, 2026</strong> in 
                 Isabelle&apos;s parents&apos; backyard in Menlo Park, California.
               </p>
-              <p className="text-charcoal-light">
+              <p className="text-light">
                 1099 Coleman Avenue, Menlo Park, California, 94025
               </p>
               <p>
                 We have put together this website to share key info, but please 
                 reach out with any questions.
               </p>
-              <div className="pt-4 space-y-1 text-base">
-                <p>Isabelle: <a href="tel:650-862-6765" className="text-sage-600 hover:text-sage-700 transition-colors">650-862-6765</a></p>
-                <p>Jose Luis: <a href="tel:765-637-3005" className="text-sage-600 hover:text-sage-700 transition-colors">765-637-3005</a></p>
+              <div className="pt-4 space-y-1 text-light">
+                <p>Isabelle: <a href="tel:650-862-6765" className="text-light hover:text-sage-700 transition-colors">650-862-6765</a></p>
+                <p>Jose Luis: <a href="tel:765-637-3005" className="text-light hover:text-sage-700 transition-colors">765-637-3005</a></p>
               </div>
               <p className="pt-4 font-medium">
-                We kindly request RSVPs by <span className="text-sage-700">May 1, 2026</span>.
+                We kindly request RSVPs by <strong className="text-sage-700">May 1, 2026</strong>.
               </p>
-              <p className="pt-6 font-baskerville italic text-xl">
+              <p className="pt-6 font-medium">
                 Thank you for being a part of our lives and our wedding. 
                 We can&apos;t wait to celebrate with everyone.
               </p>
-              <p className="font-baskerville italic text-sage-600">
-                Lots of love,<br />
-                Isabelle, Jose Luis, & our families
+              <p className="section-heading md:text-left lh-2 pt-1">
+                Lots of love, <br/> 
+                &nbsp; Isabelle, Jose Luis, & our families
               </p>
             </div>
           </div>
