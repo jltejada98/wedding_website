@@ -7,7 +7,7 @@ export function GuestList() {
     'Peter Sapountzis & Emma Menziuso',
     'Eugenia Sapountzi',
     'Greg Pazour & Jeffrey Anuszczyk',
-    'Diane Olson',
+    'Diane Olson'
   ]
   
   const brideFriends = [
@@ -21,7 +21,7 @@ export function GuestList() {
     'William Cookson',
     'Johanna & Rob Cookson',
     'Juliana Parie & Mike D\'Agostino',
-    'Priscilla Tso & Evan Clarke',
+    'Priscilla Tso & Evan Clarke'
   ]
   
   const groomFamily = [
@@ -30,7 +30,7 @@ export function GuestList() {
     'Diego Tejada',
     'Rosita Cavero & Richard Cacchione',
     'Claudia Cavero & Cesar Rubina', 
-    'Felipe Tejada',
+    'Felipe Tejada'
   ]
   
   const groomFriends = [
@@ -42,7 +42,7 @@ export function GuestList() {
     'Lorenzo de la Puente & Aldonza Buerba ',
     'Gianluca Ferrari & Rafaela Camare',
     'Stefano Lozano & Sandra Wong',
-    'Juan Diego Herrera',
+    'Juan Diego Herrera'
   ]
 
   const allFamily = [
@@ -55,8 +55,7 @@ export function GuestList() {
     'Rosita Cavero & Richard Cacchione',
     'Greg Pazour & Jeffrey Anuszczyk',
     'Claudia Cavero & Cesar Rubina', 
-    'Diane Olson',
-    'Felipe Tejada'
+    'Diane Olson'
   ]
   const allFriends = [...brideFriends, ...groomFriends].sort()
 
