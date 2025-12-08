@@ -3,7 +3,7 @@ export function Accommodations() {
     {
       name: 'Hotel Lucent',
       rate: '$139',
-      link: 'https://www.hotellucent.com/',
+      link: 'https://reservations.travelclick.com/97542?groupID=5050053',
       code: null,
       notes: null,
       location: 'In downtown Menlo Park, not the most exciting downtown. Walkable (~30 mins) either downtown Palo Alto or Stanford Shopping Center. Walkable (also ~30 mins) to Isabelle\'s parents\' house.',
@@ -11,7 +11,7 @@ export function Accommodations() {
     {
       name: 'Stanford Park Hotel',
       rate: '20% off',
-      link: 'https://reservations.stanfordparkhotel.com/?Hotel=62265&Chain=16684&promo=SPH20SMERF26&arrive=01-01-2026',
+      link: 'https://reservations.stanfordparkhotel.com/?adult=1&arrive=2026-01-01&chain=16684&child=0&currency=USD&depart=2026-01-02&hotel=62265&level=hotel&locale=en-US&productcurrency=USD&promo=SPH20SMERF26&rooms=1',
       code: 'SPH20SMERF26',
       notes: null,
       location: 'Very nice hotel, across the street from Stanford Shopping Center and ~10 mins to downtown Palo Alto. Walk in ~40 mins to Isabelle\'s parents\' house.',
@@ -19,7 +19,7 @@ export function Accommodations() {
     {
       name: 'The Graduate Hilton',
       rate: '$229',
-      link: 'https://book.passkey.com/event/51142467/owner/50914374/home',
+      link: 'https://book.passkey.com/go/tejadasapountziswedding',
       code: null,
       notes: 'If you would like to stay more nights, the hotel said they would help coordinate that to hopefully honor the block pricing. Text Isabelle if you want to do that.',
       location: 'Brand new hotel in Downtown Palo Alto (great location). Walk to Isabelle\'s parents\' house in ~an hour.',
